@@ -29,6 +29,7 @@ font-style: normal;
 
 .flaticon-add-button-inside-black-circle:before { content: "\f100"; }
 .flaticon-email:before { content: "\f101"; color: #000;}
+.flaticon-mail:before { content: "\f101"; color: #000;}
 .flaticon-facebook-logo-button:before { content: "\f102"; color: #3b5998;}
 .flaticon-github-logo:before { content: "\f103"; color: #333333;}
 .flaticon-google-plus:before { content: "\f104"; color: #dd4b39;}

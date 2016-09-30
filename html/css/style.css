@@ -1,0 +1,332 @@
+/*Estilos gerais*/
+.nphoto{
+  width: 180px;
+  height: 180px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  margin: 40px 0 40px 0;
+  overflow: hidden;
+}
+
+a{
+  color: #333;
+}
+
+a:hover{
+  color: #333;
+}
+
+/*Estilos de ícones*/
+.flaticon-whatsapp-logo, .flaticon-mail{
+  font-size:  20px;
+}
+
+.flaticon-facebook-logo-button, .flaticon-instagram-logo, .flaticon-twitter-logo-button, .flaticon-email{
+  margin-right: 5%;
+  font-size: 2em;
+}
+
+/*Estilos de fontes, paragrafos, títulos e etc*/
+h1{
+  font-size: 2.0em;
+}
+
+h2{
+  font-size: 1.6em;
+}
+
+h3{
+  font-size: 1.2em;
+}
+
+p{
+  font-size: 1em;
+}
+
+footer{
+  margin-top: 20px;
+  border-top: 1px solid #d0d0d0;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.espaco{
+  margin-top: 10px;
+  content: '';
+  display: block;
+}
+
+.copyright{
+  border-top: 1px solid #d0d0d0;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+/*media query mobile*/
+@media (max-width: 767px){
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #ff3c07;
+  }
+
+  .padding-text{
+    padding: 40px;
+  }
+
+  #bs-example-navbar-collapse-1 .glyphicon{
+    display: inline-block;
+    text-align: left;
+  }
+
+  #bs-example-navbar-collapse-1 .glyphicon::after{
+    width: 30px;
+    display: block;
+    content: "";
+  }
+
+  #logotipo-menu{
+    height: 30px;
+    top: -5px;
+    position: relative;
+  }
+
+  .home-content{
+    top: 76px;
+    position: relative;
+  }
+
+  .sobre-content{
+    position: relative;
+    top: 76px;
+  }
+
+  .servicos-content{
+    position: relative;
+    top: 76px;
+  }
+
+  .contato-content{
+    position: relative;
+    top: 76px;
+  }
+
+  .sobre-content .page-header{
+    padding: 25px;
+    margin: 0 auto 0 auto;
+  }
+
+  .servicos-content .page-header{
+    padding: 25px;
+    margin: 0 auto 0 auto;
+  }
+
+  .contato-content .page-header{
+    padding: 25px;
+    margin: 0 auto 0 auto;
+  }
+
+  #logotipo{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .page-header{
+    background-color: white;
+    border: none;
+  }
+
+  .thumbnail{
+    border: none;
+    background-color: #f3f3f3;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px){
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #ff3c07;
+  }
+
+  .padding-text{
+    padding: 40px;
+  }
+
+  #bs-example-navbar-collapse-1 .glyphicon{
+    font-size: 1.6em;
+    display: block;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  #bs-example-navbar-collapse-1 .glyphicon::after{
+    width: 30px;
+    display: block;
+    content: "";
+  }
+
+  #logotipo-menu{
+    height: auto;
+    width: auto;
+    top: 0;
+    position: relative;
+  }
+
+  .home-content{
+    top: 76px;
+    position: relative;
+  }
+
+  .sobre-content{
+    top: 76px;
+    position: relative;
+  }
+
+  .servicos-content{
+    top: 76px;
+    position: relative;
+  }
+
+  .contato-content{
+    top: 76px;
+    position: relative;
+  }
+
+  .sobre-content .page-header{
+    padding: 25px;
+    margin: 0 auto 0 auto;
+  }
+
+  .servicos-content .page-header{
+    padding: 25px;
+    margin: 0 auto 0 auto;
+  }
+
+  .contato-content .page-header{
+    padding: 25px;
+    margin: 0 auto 0 auto;
+  }
+
+  #logotipo{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .page-header{
+    background-color: white;
+    border: none;
+  }
+
+  .thumbnail{
+    border: none;
+    background-color: #f3f3f3;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #ff3c07;
+  }
+
+  #bs-example-navbar-collapse-1 .glyphicon{
+    font-size: 1.6em;
+    display: block;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  #logotipo-menu{
+    width: auto;
+    height: auto;
+    top: 0;
+    position: relative;
+  }
+
+  #logotipo{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 25px 25px 20px 25px;
+  }
+
+  .home-content .page-header{
+    background-color: #f5f5f5;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .sobre-content .page-header{
+    background: white;
+  }
+
+  .servicos-content .page-header{
+    background: white;
+  }
+
+  .contato-content .page-header{
+    background: white;
+  }
+
+  .sobre-content h1{
+    background-color: #222;
+    padding: 15px;
+    color: white;
+  }
+
+  .servicos-content h1{
+    background-color: #222;
+    padding: 15px;
+    color: white;
+  }
+
+  .contato-content h1{
+    background-color: #222;
+    padding: 15px;
+    color: white;
+  }
+
+  .padding-text{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .thumbnail{
+    min-height: 330px;
+    border-radius: 0px;
+    border: none;
+    background-color: white;
+  }
+
+  .home-content{
+    top: 76px;
+    position: relative;
+  }
+
+  .sobre-content{
+    top: 76px;
+    position: relative;
+  }
+
+  .servicos-content{
+    top: 76px;
+    position: relative;
+  }
+
+  .contato-content{
+    top: 76px;
+    position: relative;
+  }
+}
